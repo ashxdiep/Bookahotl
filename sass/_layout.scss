@@ -8,9 +8,14 @@
 }
 
 .header{
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--Grey-light-2);
+
+  display: flex;
+  justify-content: space-between; //divide the space between 3 elements
+  align-items: center;
 }
 
 .content{
