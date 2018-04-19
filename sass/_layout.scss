@@ -26,10 +26,15 @@
   background-color: var(--Grey-dark-1);
 
   flex: 0 0 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; ///divides white space between the element
 }
 
 .hotel-view{
   background-color: orangered;
+  height: 80rem;
 
   // grow as much as it can occupying the remaining percent
   flex: 1;
