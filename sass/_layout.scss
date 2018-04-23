@@ -11,7 +11,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--Grey-light-2);
+  border-bottom: var(--line);
 
   display: flex;
   justify-content: space-between; //divide the space between 3 elements
@@ -33,9 +33,28 @@
 }
 
 .hotel-view{
-  height: 80rem;
 
   // grow as much as it can occupying the remaining percent
   flex: 1;
 
+}
+
+.detail{
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--Grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description{
+  font-size: 1.4rem;
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;// have 60% of the availablle width, while shrink and grow is 0
+  margin-right: 4.5rem;
+}
+
+.user-reviews{
+  background-color: yellowgreen;
 }
